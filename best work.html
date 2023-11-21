@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-headingx">Trourism</h1>
+                <p class="paragraph"> Plan Your Trip to Fresh Your Mind with Us.</p>
+                <button class="button" onclick="display('sectionFavoritePlaces')">Lets Go</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="sectionFavoritePlaces">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">
+                Favorite Places To Visit
+            </h1>
+
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionKedarnathTempleDeatailed')">
+                <div>
+                    <h1>
+                        Kedarnath Temple
+                    </h1>
+                    <p class=" favourite-place-card-description">
+                        "Neither others nor we belong to anyone There is only one Mahadev and we belongs to him."
+                    </p>
+
+                </div>
+                <img src="https://img.freepik.com/premium-photo/kedarnath-india_78361-2500.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTrirupatiBalajiTempleDeatailed')">
+                <div>
+                    <h1>
+                        Tirupati Balaji Temple
+                    </h1>
+                    <p class=" favourite-place-card-description">
+                        "God comes when your broken; not when you believe but he works when you believe."
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/tiruvannamalai-india-architecture-annamalaiyar-temple-tiruvannamalai-india_380726-884.jpg?size=338&ext=jpg&ga=GA1.2.1107936805.1663133264" class="favourite-place-card-image" />
+            </div>
+
+
+
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionVaranasiTempleDeatailed')">
+                <div>
+                    <h1>
+                        Varanasi Temple
+                    </h1>
+                    <p class=" favourite-place-card-description">
+                        "If karma is good for you then luck is your slave, if your destiny is good then there is Mathura kashi in the house...!!"
+                    </p>
+
+                </div>
+                <img src="https://img.freepik.com/premium-photo/bagmati-river-pashupatinath-temple-premises-kathmandu_627378-762.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionShreeJagannathTempleDeatailed')">
+                <div>
+                    <h1>
+                        Shree Jagannath Temple
+                    </h1>
+                    <p class=" favourite-place-card-description">
+                        "Puri is Famous for the world famous Jagannath Temple."
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/free-vector/flat-rath-yatra-background_52683-63732.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="favourite-place-card-image" />
+            </div>
+            <button class="black btn btn-dark" onclick="display('sectionHome')">
+                black
+            </button>
+        </div>
+
+    </div>
+
+
+    <div id="sectionKedarnathTempleDeatailed">
+        <div class="main">
+            <h1 class="main-heading">
+                Detailed View
+            </h1>
+            <div class="second-main">
+                <div id="carouselKedarnath" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselKedarnath" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselKedarnath" data-slide-to="1"></li>
+                        <li data-target="#carouselKedarnath" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/kedarnath-india_78361-2504.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/kedarnath-india_78361-2503.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/kedarnath-india_78361-2586.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselKedarnath" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselKedarnath" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="info">
+                    <h1 class=" main-heading-2">Kedarnath Temple </h1>
+                    <p class="main-paragraph">Kedarnath Temple is a Hindu temple dedicated to Shiva. The temple is located in the Garhwal Himalayan range near the Mandakini river in Uttarakhand, India. Due to extreme weather conditions, the temple is open to the general public only between April and November . During the winters, the vigraha of the temple is carried down to Ukhimath to be worshipped for the next six months. Kedarnath is seen as a homogenous form of Shiva, the 'Lord of Kedarkhand'</p>
+                    <ul class="unorder-list2 main-paragraph ">
+                        <li>Kedarnath Temple</li>
+                        <li>Bhairavnath Temple</li>
+                        <li>Vasuki Tal</li>
+                        <li>Sonprayag </li>
+                    </ul>
+                </div>
+
+            </div>
+            <button class="black btn btn-dark" onclick="display('sectionFavoritePlaces')">
+                back
+            </button>
+        </div>
+
+    </div>
+
+
+    <div id="sectionTrirupatiBalajiTempleDeatailed">
+        <div class="main">
+            <h1 class="main-heading">
+                Detailed View
+            </h1>
+            <div class="second-main">
+                <div id="carouselTrirupatiBalaji" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselTrirupatiBalaji" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselTrirupatiBalaji" data-slide-to="1"></li>
+                        <li data-target="#carouselTrirupatiBalaji" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/balaji-temple-tirumala-hill-sri-venkateswara-swamy-vaari-temple-tirumala-tirupati-india_380726-895.jpg?size=338&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/entrance-building-with-two-men-horseback_1122-1258.jpg?size=338&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/building-with-statues-everywhere_1122-1292.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselTrirupatiBalaji" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselTrirupatiBalaji" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="info">
+                    <h1 class=" main-heading-2">Tirupati Balaji Temple </h1>
+                    <p class="main-paragraph">Sri Venkateswara Swami Vaari Temple is a Hindu temple situated in the hill town of Tirumala at Tirupati in Tirupati district of Andhra Pradesh, India. The Temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on the earth to save mankind from trials and troubles of Kali Yuga.'</p>
+                    <ul class="unorder-list3 main-paragraph ">
+                        <li>Sri Venkateswara Temple</li>
+                        <li>Akasaganga Teertham</li>
+                        <li>Swami pushkarini lake/li>
+                        <li>City Shopping</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="black btn btn-dark" onclick="display('sectionFavoritePlaces')">
+                back
+            </button>
+        </div>
+
+
+    </div>
+
+
+    <div id="sectionShreeJagannathTempleDeatailed">
+        <div class="main">
+            <h1 class="main-heading">
+                Detailed View
+            </h1>
+            <div class="second-main">
+                <div id="carouselShreeJagannath" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselShreeJagannath" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselShreeJagannath" data-slide-to="1"></li>
+                        <li data-target="#carouselShreeJagannath" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-vector/flat-rath-yatra-celebration-illustration_23-2148968441.jpg?size=338&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-vector/shri-ram-mandir-ayodhya-temple-birth-place-god-ram_156779-258.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-vector/flat-rath-yatra-celebration-illustration_23-2148968260.jpg?size=338&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="info">
+                    <h1 class=" main-heading-2">Shree Jagannath Temple </h1>
+                    <p class="main-paragraph">It is one of the Char Dham pilgrimage sites in India, and is also well-known for the annual chariot festival or Rath Yatra. If various legends are to be believed, King Indradyumn built this holy shrine after Lord Vishnu blessed and guided him in his dreams to find Nila Madhava.</p>
+                    <ul class="unorder-list2 main-paragraph ">
+                        <li>Defying Nature's Code of Conduct</li>
+                        <li>The Riddle of The Sudarshan Chakra</li>
+                        <li>Nothing's Above God, So Nothing Fly Above It Either</li>
+                        <li>The Food Is Never Futile Here </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="black btn btn-dark" onclick="display('sectionFavoritePlaces')">
+                back
+            </button>
+        </div>
+
+
+    </div>
+
+
+    <div id="sectionVaranasiTempleDeatailed">
+        <div class="main">
+            <h1 class="main-heading">
+                Detailed View
+            </h1>
+            <div class="second-main">
+                <div id="carouselVaranasi" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselVaranasi" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselVaranasi" data-slide-to="1"></li>
+                        <li data-target="#carouselVaranasi" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-photo/parinirvana-stupa-temple-kushinagar-india_554837-289.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/boat-ride-varanasi-ghat-river-ganges-uttar-pradesh-india_617018-422.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/close-view-shiva-s-trishul-damroo-hindu-god-shiva-symbol_181020-2138.jpg?size=626&ext=jpg&ga=GA1.2.1107936805.1663133264" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselVaranasi" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselVaranasi" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="info">
+                    <h1 class=" main-heading-2">Varanasi Temple </h1>
+                    <p class="main-paragraph">Sri Kashi Vishwanath Temple also known as the Golden Temple, it is dedicated to Lord Shiva, the presiding deity of the city. Varanasi is Said to be the point at which the first jyotirlinga, the fiery pillar of light by which shiva manifested has supremacy over others gods, broke through the Earth’s crust and flared towards the heavens.</p>
+                    <ul class="unorder-list main-paragraph ">
+                        <li>sarnath</li>
+                        <li>Banaras Ghats</li>
+                        <li>Ganga Aarti</li>
+                        <li>Shree kashi Vishwanath Temple </li>
+                    </ul>
+                </div>
+
+            </div>
+            <button class="black btn btn-dark" onclick="display('sectionFavoritePlaces')">
+                back
+            </button>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
